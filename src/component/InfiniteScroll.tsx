@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Item } from '../types/item';
 import { PaginationResponse } from '../types/response';
 import './InfiniteScroll.css';
-import useInfinityScroll from '../hooks/useInfiniteScroll';
+import useInfiniteScroll from '../hooks/useInfiniteScroll';
 import { FetchMoreDataFunction } from '../types/fetchMoreData';
 import Skeleton from './Skeleton';
 
@@ -29,7 +29,7 @@ export default function InfiniteScroll() {
 		}
 	};
 
-	const { lastItemRef } = useInfinityScroll(fetchItems);
+	const { lastItemRef } = useInfiniteScroll(fetchItems);
 
 	return (
 		<div className='container'>
