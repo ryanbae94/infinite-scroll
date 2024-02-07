@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { FetchMoreDataFunction } from '../types/fetchMoreData';
+import { FetchMoreDataFunction } from '../types/FetchMoreDataFunction';
 
 const useInfiniteScroll = (fetchMoreData: FetchMoreDataFunction) => {
 	const [page, setPage] = useState(0);

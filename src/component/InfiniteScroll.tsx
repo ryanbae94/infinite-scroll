@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { Item } from '../types/item';
-import { PaginationResponse } from '../types/response';
+import { Item } from '../types/Item';
+import { PaginationResponse } from '../types/PaginationResponse';
 import './InfiniteScroll.css';
 import useInfiniteScroll from '../hooks/useInfiniteScroll';
-import { FetchMoreDataFunction } from '../types/fetchMoreData';
+import { FetchMoreDataFunction } from '../types/FetchMoreDataFunction';
 import Skeleton from './Skeleton';
 
 export default function InfiniteScroll() {

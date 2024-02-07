@@ -1,6 +1,6 @@
 import { HttpResponse, http } from 'msw';
-import { Item } from '../types/item';
-import { PaginationResponse } from '../types/response';
+import { Item } from '../types/Item';
+import { PaginationResponse } from '../types/PaginationResponse';
 
 const generateItems = (page: number, size: number) => {
 	const start = page * size;
